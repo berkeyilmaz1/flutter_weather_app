@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:wheather_app/feature/home/shared/styles/text_styles.dart';
+import 'package:wheather_app/product/utility/constants/project_constants.dart';
 
 class IconCard extends StatelessWidget {
   const IconCard(
@@ -9,7 +10,7 @@ class IconCard extends StatelessWidget {
       required this.data});
   final IconData icon;
   final String subtitle;
-  final data;
+  final String data;
   @override
   Widget build(BuildContext context) {
     return SizedBox(
@@ -19,14 +20,15 @@ class IconCard extends StatelessWidget {
         mainAxisSize: MainAxisSize.min,
         children: [
           Icon(
+            color: ProjectColors.white,
             icon,
-            size: 36,
+            size: 32,
           ),
           const SizedBox(
             height: 2,
           ),
           Text(
-            "$data",
+            data,
             style: dataStyle,
           ),
           const SizedBox(

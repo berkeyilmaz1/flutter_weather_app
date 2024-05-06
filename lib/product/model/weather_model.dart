@@ -21,10 +21,10 @@ class WeatherModel {
       cityName: json['name'],
       temperature: json['main']['temp'].toDouble(),
       humidity: json['main']['humidity'].toDouble(),
-      feelsLike: json['main']['feels_like'],
+      feelsLike: json['main']['feels_like'].toDouble(),
       mainCondition: json['weather'][0]['main'],
       description: json['weather'][0]['description'],
-      wind: json['wind']['speed'],
+      wind: json['wind']['speed'].toDouble(),
     );
   }
 }

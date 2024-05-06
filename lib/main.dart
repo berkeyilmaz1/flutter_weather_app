@@ -14,9 +14,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Weather App',
       theme: ThemeData(
-        useMaterial3: true,
-        fontFamily: "Raleway"
-      ),
+          progressIndicatorTheme:
+              const ProgressIndicatorThemeData(color: Colors.blue),
+          useMaterial3: true,
+          fontFamily: "Raleway"),
       home: const HomeView(),
     );
   }
