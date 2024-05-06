@@ -1,16 +1,15 @@
-# wheather_app
+# Weather App 
 
-A new Flutter project.
+"This Weather app shows real-time and five-day weather forecasts with some information. The app is powered by the OpenWeather API and other packages for enhanced functionality."
 
-## Getting Started
+## The Libraries and Technologies
+*MVVM (Model-View-ViewModel) Architecture:MVVM is an architectural pattern where Model represents data and business logic, View represents UI components, and ViewModel acts as an intermediary, facilitating data flow and user interactions in a decoupled manner.
+*OpenWeather API: The OpenWeather API provides accurate, up-to-date weather data for global locations.[OpenWeatherAPI](https://openweathermap.org/current)
+*Http => https://pub.dev/packages/http
+*Dio => https://pub.dev/packages/dio
+*Geolocator => https://pub.dev/packages/geolocator
+*Lottie for animations => https://pub.dev/packages/lottie
+*intl => https://pub.dev/packages/intl
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+##App Image
+![weather_app_image](https://github.com/berkeyilmaz1/flutter_weather_app/assets/115240560/37c90424-9b42-4da7-b7d2-c78a920b56a2)
