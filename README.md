@@ -11,5 +11,5 @@
 *Lottie for animations => https://pub.dev/packages/lottie
 *intl => https://pub.dev/packages/intl
 
-##App Image
+## App Image
 ![weather_app_image](https://github.com/berkeyilmaz1/flutter_weather_app/assets/115240560/37c90424-9b42-4da7-b7d2-c78a920b56a2)
