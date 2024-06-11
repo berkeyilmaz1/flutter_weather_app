@@ -13,4 +13,5 @@
 
 ## App Image
 
-![weather_app_image]([https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png](https://github.com/berkeyilmaz1/flutter_weather_app/assets/115240560/37c90424-9b42-4da7-b7d2-c78a920b56a2) | width=200)
+![weather_app_image](https://github.com/berkeyilmaz1/flutter_weather_app/assets/115240560/37c90424-9b42-4da7-b7d2-c78a920b56a2) | width=200)
+
